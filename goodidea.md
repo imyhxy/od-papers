@@ -5,6 +5,7 @@
 2. 可以结合Anchor-base的方法，作为辅助提升检测效果
 
 ![FSAF](FSAF_1.jpg)
+<hr />
 ![FSAF](FSAF_2.jpg)
 
 论文缺点：
