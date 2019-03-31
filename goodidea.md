@@ -37,6 +37,8 @@
 2. 实际上以大部分网络的`anchor`密度来算，不可能出现和`ground truth`无重叠的情况。
 3. 从demo的图片来看，两者的预测结果几乎无差别。
 
+---
+
 ## DeRPN: Taking a further step toward more general object detection (AAAI 2019) [\[arxiv\]](https://arxiv.org/abs/1811.06700)
 
 ### 论文动机：
