@@ -67,6 +67,7 @@
 
 <p align="center">
   <img src="imgs/lstd_1.jpg" alt="lstd_1" width="700px" />
+  &nbsp;
   <img src="imgs/lstd_2.jpg" alt="lstd_2" width="700px" />
 </p>
 
