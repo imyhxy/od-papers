@@ -9,6 +9,7 @@
 * [FSAF (CVPR 2019)](goodidea.md#feature-selective-anchor-free-module-for-single-shot-object-detection-cvpr-2019-arxiv)
 * [GIoU (CVPR 2019)](goodidea.md#generalized-intersection-over-union-a-metric-and-a-loss-for-bounding-box-regression-cvpr-2019-arxiv)
 * [DeRPN (AAAI 2019)](goodidea.md#derpn-taking-a-further-step-toward-more-general-object-detection-aaai-2019-arxiv)
+* [LSTD (AAAI 2019)](goodidea.md#lstd-low-shot-transfer-detector-for-object-detection-aaai-2019-arxiv)
 
 ### Index 1
 

@@ -58,7 +58,7 @@
 
 ---
 
-## LSTD: A Low-Shot Transfer Detector for Object Detection (AAAI 2019) [\[arxiv\](https://arxiv.org/abs/1803.01529)
+## LSTD: A Low-Shot Transfer Detector for Object Detection (AAAI 2019) [\[arxiv\]](https://arxiv.org/abs/1803.01529)
 
 ### 论文动机：
 
