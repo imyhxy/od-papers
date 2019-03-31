@@ -5,9 +5,9 @@
 1. 本文认为启发式地把不同尺度的物体硬性地分配到不同特征层上会欠优化，因此提出了一个Feature Selective Anchor Free(FSAF)模块用来选择每一个实例应该从哪个特征图上提取特征。
 2. 可以结合Anchor-base的方法，作为辅助提升检测效果
 
-![FSAF](FSAF_1.jpg)
+![FSAF](imgs/FSAF_1.jpg)
 &nbsp;
-![FSAF](FSAF_2.jpg)
+![FSAF](imgs/FSAF_2.jpg)
 
 ### 论文不足：
 
@@ -26,7 +26,7 @@
 针对`IoU`不能很好表示`predicted boxed`和`ground truth`之间距离的情况，作者提出了一种新的误差计算方式：`GIoU`。
 
 <p align="center">
-  <img src="giou_1.jpg" height="50px" />
+  <img src="imgs/giou_1.jpg" height="50px" />
 </p>
 
 `GIoU`的值域范围为\[-1, 1\]，这样各种情况下都能有梯度返回到网络
