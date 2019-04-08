@@ -10,6 +10,7 @@
 * [GIoU (CVPR 2019)](goodidea.md#generalized-intersection-over-union-a-metric-and-a-loss-for-bounding-box-regression-cvpr-2019-arxiv)
 * [DeRPN (AAAI 2019)](goodidea.md#derpn-taking-a-further-step-toward-more-general-object-detection-aaai-2019-arxiv)
 * [LSTD (AAAI 2019)](goodidea.md#lstd-a-low-shot-transfer-detector-for-object-detection-aaai-2019-arxiv)
+* [GHM (AAAI 2019)](goodidea.md#gradient-harmonized-single-stage-detector-aaai-2019-arxiv)
 
 ### Index 1
 
