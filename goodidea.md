@@ -84,7 +84,7 @@
 
 ---
 
-## Gradient Harmonized Single-stage Detector (AAAI 2019) [\[arxiv\](https://arxiv.org/abs/1811.05181)
+## Gradient Harmonized Single-stage Detector (AAAI 2019) [\[arxiv\]](https://arxiv.org/abs/1811.05181)
 
 `Focal Loss`认为一阶段目标检测模型需要解决的主要难题的正负样本不平衡的问题，本文作者认为正负样本中同时存在着难易样本，因此本质上一阶段目标检测模型面临的问题是难易样本不平衡的问题。而进一步的，难易样本不平衡又反应在了梯度上，因此本文的主要动机是通过均衡化梯度来抑制**易分样本**和**离群子**对梯度的贡献。
 
