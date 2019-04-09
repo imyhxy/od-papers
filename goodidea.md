@@ -2,8 +2,8 @@
 
 ### 论文创新点：
 
-1. 本文认为启发式地把不同尺度的物体硬性地分配到不同特征层上会欠优化，因此提出了一个Feature Selective Anchor Free(FSAF)模块用来选择每一个实例应该从哪个特征图上提取特征。
-2. 可以结合`anchor-base`的方法，作为辅助提升检测效果
+1. 本文认为启发式地把不同尺度的物体硬性地分配到不同特征层上会欠优化，因此提出了一个Feature Selective Anchor Free(FSAF)模块用来选择每一个实例应该从哪个特征图上提取特征；
+2. 可以结合`anchor-base`的方法，作为辅助提升检测效果。
 
 <p align="center">
   <img alt="FSAF" src="imgs/FSAF_1.jpg" width="700px" />
@@ -39,8 +39,8 @@
 
 ### 论文不足
 
-1. 论文在训练数据集较小的`YOLOv3`上具有较大的提升，但是对于`COCO`上的`Faster RCNN`和`Mask RCNN`提升效果较小。
-2. 实际上以大部分网络的`anchor`密度来算，不可能出现和`ground truth`无重叠的情况。
+1. 论文在训练数据集较小的`YOLOv3`上具有较大的提升，但是对于`COCO`上的`Faster RCNN`和`Mask RCNN`提升效果较小；
+2. 实际上以大部分网络的`anchor`密度来算，不可能出现和`ground truth`无重叠的情况；
 3. 从demo的图片来看，两者的预测结果几乎无差别。
 
 ---
@@ -53,8 +53,8 @@
 
 ### 论文创新点
 
-1. 把`anchor boxes`替换为`anchor string`，使用更少的参数预测更加多样化的框，`DeRPN`的`recall`比`RPN`有了很大的提升.
-2. 提示了`scale sensitive`的`loss function`，分别计算不同尺度物体的误差，这样有效地缓解了不同尺度物体统一归一化时**占优尺度**对**弱势尺度**的削弱.
+1. 把`anchor boxes`替换为`anchor string`，使用更少的参数预测更加多样化的框，`DeRPN`的`recall`比`RPN`有了很大的提升；
+2. 提示了`scale sensitive`的`loss function`，分别计算不同尺度物体的误差，这样有效地缓解了不同尺度物体统一归一化时**占优尺度**对**弱势尺度**的削弱。
 
 ---
 
@@ -75,7 +75,7 @@
 
 ### 论文创新点：
 
-1. 提出`LSTD`模型：`LSTD`模型结合了`SSD`和`Faster RCNN`的特点，即预测没有类别属性的边界框和使用`coarse-to-fine`的分类方方式。
+1. 提出`LSTD`模型：`LSTD`模型结合了`SSD`和`Faster RCNN`的特点，即预测没有类别属性的边界框和使用`coarse-to-fine`的分类方方式；
 2. 提出了`Background Depression`和`Transfer Knowledge`两种`Regularization`方式，使得`target model`能在`low-shot`情况下有更好的效果。
 
 ### 论文不足：
@@ -90,9 +90,44 @@
 
 ### 论文创新点
 
-1. 提出梯度密度的概念，并以梯度密度的倒数为权重因子修正`loss`函数。
-2. 提出更平滑的ASL1损失函数
+1. 提出梯度密度的概念，并以梯度密度的倒数为权重因子修正`loss`函数；
+2. 提出更平滑的ASL1损失函数。
 
 ### 论文不足
 
 没有从理论上探讨什么才是最优的梯度分布，目前的工作都只是基于启发式的思考。
+
+---
+
+## M2Det: A Single-Shot Object Detector based on Multi-Level Feature Pyramid Network (AAAI 2019) [\[arxiv\]](https://arxiv.org/abs/1811.04533)
+
+论文认为目前处理多尺度目标检测的方法主要有两种，一种是使用图像金字塔，但是这种方法只可以在测试时使用并且计算量巨大；另一种是使用特征金字塔，但是目前的特征金字塔是基于分类模型搭建的，因此不能很好地适应目标检测任务，同时特征金字塔的每一层特征通常只与`backbone`网络的一层或两层特征有关，每层包含的信息不充分；因此本文提出一种**多层级的特征金字塔**模块，在`COCO`上能达到`11.8FPS`和`41.0AP`。
+
+<p align="center">
+  <img src="imgs/m2det_1.png" alt="m2det_framework" width="700px" />
+  <br />
+  Fig.1 Framework
+</p>
+
+<p align="center">
+  <img src="imgs/m2det_2.png" alt="m2det_sfam" width="700px" />
+  <br />
+  Fig.2 SFAM
+</p>
+
+<p align="center">
+  <img src="imgs/m2det_3.png" alt="m2det_tum" width="700px" />
+  <br />
+  Fig.3 TUM
+</p>
+
+### 论文创新点
+
+1. 提出一个`FFM`结构融合不同的特征；
+2. 提出一个`MLFPN`结构生成**多层级的特征金字塔**，`MLFPN`由多个`TUM`结构堆叠而成，而每一个`TUM`由一个`U`型网络组成，并且每一个`TUM`都可以输出一个特征金字塔；
+3. 提出一个`SFAM`模块融合不同`level`的特征金字塔，`SFAM`首先把不同`level`的特征金字塔中相同尺度的特征图按照通道维度`concatenate`到一起，然后使用`SE`结构对每个通道进行`reweight`计算，最后在每个尺度的特征图上进行目标检测。
+
+### 论文不足
+
+1. 模型结构过于复杂，核心思想其实是`cascade`的思想，`e.g.` `RefineDet`, `Cascade-RCNN`；
+2. 没有提及`soft-NMS`的影响；
