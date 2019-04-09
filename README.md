@@ -16,4 +16,4 @@
 
 ### Index 1
 
-* [Improve Object Detection by Data Enhancement based on Generative Adversarial Nets (arxiv)](someidea.md#improve-object-detection-by-data-enhancement-based-on-generative-adversarial-nets-arxiv)
+* [Improve Object Detection by Data Enhancement based on Generative Adversarial Nets \[arxiv\]](someidea.md#improve-object-detection-by-data-enhancement-based-on-generative-adversarial-nets-arxiv)
