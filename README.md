@@ -12,6 +12,7 @@
 * [LSTD (AAAI 2019)](goodidea.md#lstd-a-low-shot-transfer-detector-for-object-detection-aaai-2019-arxiv)
 * [GHM (AAAI 2019)](goodidea.md#gradient-harmonized-single-stage-detector-aaai-2019-arxiv)
 * [M2Det (AAAI 2019)](goodidea.md#m2det-a-single-shot-object-detector-based-on-multi-level-feature-pyramid-network-aaai-2019-arxiv)
+* [R-DAD (AAAI 2019)](goodidea.md#object-detection-based-on-region-decomposition-and-assembly-aaai-2019-arxiv)
 
 ### Index 1
 
