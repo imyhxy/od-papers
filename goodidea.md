@@ -23,8 +23,6 @@
 
 ## Generalized Intersection over Union: A Metric and A Loss for Bounding Box Regression (CVPR 2019) [\[arxiv\]](https://arxiv.org/abs/1902.09630)
 
-### 论文动机：
-
 一般的目标检测数据集都用`IoU`作为`TP`或`FP`的评价指标，但是网络训练过程中却回归坐标值（或是偏移值），`IoU`和`Regression Loss`有时并不一致，因此作者认为应以最大化`IoU`为网络的优化目标，但是当`predicted boxes`和`ground truth`之间没有重叠时，`IoU`不能很好反映两者之间的距离，因为此时`IoU`永远等于`0`。
 
 ### 论文创新点
@@ -47,8 +45,6 @@
 
 ## DeRPN: Taking a further step toward more general object detection (AAAI 2019) [\[arxiv\]](https://arxiv.org/abs/1811.06700)
 
-### 论文动机：
-
 目前的二阶段网络大多采用`RPN`作为候选框生成网络，但是`RPN`的召回率很大程度上依靠`anchor boxes`的设定，不同的数据集对`anchor boxes`的要求不一致，这导致不改变超参数的情况下`RPN`缺乏泛化能力，本文提出一种新的`anchor`形式：`anchor string`。通过分别预测边界框的`width`和`height`，DeRPN可以使用更少的参数预测更多`aspect ratio`的框。
 
 ### 论文创新点
@@ -59,8 +55,6 @@
 ---
 
 ## LSTD: A Low-Shot Transfer Detector for Object Detection (AAAI 2019) [\[arxiv\]](https://arxiv.org/abs/1803.01529)
-
-### 论文动机：
 
 目标检测网络通常需要大量的训练样本，当训练样本严重不足时我们需要使用`weakly-supervised`或者`semi-supervised`的方式进行训练，但是即使使用了前面两种方法，对于`low-shot`的情况，仍然不能达到令人满意的效果。
 在本文中，作者通过提出新的**知识迁移**方法，使`target model`能更好地利用`source model`的知识。
