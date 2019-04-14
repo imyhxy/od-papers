@@ -216,7 +216,7 @@
 
 ---
 
-## High-level Semantic Feature Detection: A New Perspective for Pedestrian Detection [\[arxiv\]](https://arxiv.org/abs/1904.02948)
+## High-level Semantic Feature Detection: A New Perspective for Pedestrian Detection (CVPR 2019) [\[arxiv\]](https://arxiv.org/abs/1904.02948)
 
 CNN目前在处理特征检测方面比传统方法能取得更好的效果，本文中作者认为目标的**中心点**是一种高度抽象特征，因此可以使用CNN直接进行检测。但本文主要实在行人检测任务上进行验证的。
 
