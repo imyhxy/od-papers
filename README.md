@@ -15,6 +15,7 @@
 * [R-DAD (AAAI 2019)](goodidea.md#object-detection-based-on-region-decomposition-and-assembly-aaai-2019-arxiv)
 * [TensorMask](goodidea.md#tensormask-a-foundation-for-dense-object-segmentation-arxiv)
 * [FCOS](goodidea.md#fcos-fully-convolutional-one-stage-object-detection-arxiv)
+* [CSP (CVPR 2019)](goodidea.md#high-level-semantic-feature-detection-a-new-perspective-for-pedestrian-detection-cvpr-2019-arxiv)
 
 ### Index 1
 
