@@ -13,6 +13,7 @@
 * [GHM (AAAI 2019)](goodidea.md#gradient-harmonized-single-stage-detector-aaai-2019-arxiv)
 * [M2Det (AAAI 2019)](goodidea.md#m2det-a-single-shot-object-detector-based-on-multi-level-feature-pyramid-network-aaai-2019-arxiv)
 * [R-DAD (AAAI 2019)](goodidea.md#object-detection-based-on-region-decomposition-and-assembly-aaai-2019-arxiv)
+* [TensorMask](goodidea.md#tensormask-a-foundation-for-dense-object-segmentation-arxiv)
 
 ### Index 1
 
