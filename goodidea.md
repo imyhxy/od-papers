@@ -147,6 +147,7 @@
 2. 论文中的`multi-scale region proposal (MRP)`网络并非原创；
 3. 网络的复杂度比`baseline`大。
 
+---
 
 ## TensorMask: A Foundation for Dense Object Segmentation [\[arxiv\]](https://arxiv.org/abs/1903.12174)
 
@@ -169,3 +170,5 @@
 
 1. 因为要对每个`sliding-window`输出一个`mask`，因此计算量比`Mask R-CNN`大；
 2. 检测效果比`Mask R-CNN`差一点；
+
+---
