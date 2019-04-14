@@ -14,6 +14,7 @@
 * [M2Det (AAAI 2019)](goodidea.md#m2det-a-single-shot-object-detector-based-on-multi-level-feature-pyramid-network-aaai-2019-arxiv)
 * [R-DAD (AAAI 2019)](goodidea.md#object-detection-based-on-region-decomposition-and-assembly-aaai-2019-arxiv)
 * [TensorMask](goodidea.md#tensormask-a-foundation-for-dense-object-segmentation-arxiv)
+* [FCOS](goodidea.md#fcos-fully-convolutional-one-stage-object-detection-arxiv)
 
 ### Index 1
 
