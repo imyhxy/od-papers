@@ -16,6 +16,7 @@
 * [TensorMask](goodidea.md#tensormask-a-foundation-for-dense-object-segmentation-arxiv)
 * [FCOS](goodidea.md#fcos-fully-convolutional-one-stage-object-detection-arxiv)
 * [CSP (CVPR 2019)](goodidea.md#high-level-semantic-feature-detection-a-new-perspective-for-pedestrian-detection-cvpr-2019-arxiv)
+* [ThunderNet](goodidea.md#thundernet-towards-real-time-generic-object-detection-arxiv)
 
 ### Index 1
 
