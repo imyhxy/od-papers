@@ -6,18 +6,18 @@
 
 ### Index 0
 
-* [FSAF (CVPR 2019)](goodidea.md#feature-selective-anchor-free-module-for-single-shot-object-detection-cvpr-2019-arxiv)
-* [GIoU (CVPR 2019)](goodidea.md#generalized-intersection-over-union-a-metric-and-a-loss-for-bounding-box-regression-cvpr-2019-arxiv)
-* [DeRPN (AAAI 2019)](goodidea.md#derpn-taking-a-further-step-toward-more-general-object-detection-aaai-2019-arxiv)
-* [LSTD (AAAI 2019)](goodidea.md#lstd-a-low-shot-transfer-detector-for-object-detection-aaai-2019-arxiv)
-* [GHM (AAAI 2019)](goodidea.md#gradient-harmonized-single-stage-detector-aaai-2019-arxiv)
-* [M2Det (AAAI 2019)](goodidea.md#m2det-a-single-shot-object-detector-based-on-multi-level-feature-pyramid-network-aaai-2019-arxiv)
-* [R-DAD (AAAI 2019)](goodidea.md#object-detection-based-on-region-decomposition-and-assembly-aaai-2019-arxiv)
-* [TensorMask](goodidea.md#tensormask-a-foundation-for-dense-object-segmentation-arxiv)
-* [FCOS](goodidea.md#fcos-fully-convolutional-one-stage-object-detection-arxiv)
-* [CSP (CVPR 2019)](goodidea.md#high-level-semantic-feature-detection-a-new-perspective-for-pedestrian-detection-cvpr-2019-arxiv)
-* [ThunderNet](goodidea.md#thundernet-towards-real-time-generic-object-detection-arxiv)
+* [FSAF (CVPR 2019)](docs/2019/FSAF.md)
+* [GIoU (CVPR 2019)](docs/2019/GIoU.md)
+* [DeRPN (AAAI 2019)](docs/2019/DeRPN.md)
+* [LSTD (AAAI 2019)](docs/2019/LSTD.md)
+* [GHM (AAAI 2019)](docs/2019/GHM.md)
+* [M2Det (AAAI 2019)](docs/2019/M2Det.md)
+* [R-DAD (AAAI 2019)](docs/2019/R_DAD.md)
+* [TensorMask](docs/2019/TensorMask.md)
+* [FCOS](docs/2019/FCOS.md)
+* [CSP (CVPR 2019)](docs/2019/CSP.md)
+* [ThunderNet](docs/2019/ThunderNet.md)
 
 ### Index 1
 
-* [Improve Object Detection by Data Enhancement based on Generative Adversarial Nets \[arxiv\]](someidea.md#improve-object-detection-by-data-enhancement-based-on-generative-adversarial-nets-arxiv)
+* [Improve Object Detection by Data Enhancement based on Generative Adversarial Nets \[arxiv\]](docs/2019/improve_object_detection_by_data_enhancement_based_on_generative_adversarial_nets.md)

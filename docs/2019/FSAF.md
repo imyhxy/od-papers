@@ -6,13 +6,13 @@
 2. 可以结合`anchor-base`的方法，作为辅助提升检测效果。
 
 <p align="center">
-  <img alt="FSAF" src="imgs/FSAF_1.jpg" width="700px" />
+  <img alt="FSAF" src="../../imgs/fsaf_1.jpg" width="700px" />
 </p>
 
 &nbsp;
 
 <p align="center">
-  <img alt="FSAF" src="../../imgs/FSAF_2.jpg" width="700px" />
+  <img alt="FSAF" src="../../imgs/fsaf_2.jpg" width="700px" />
 </p>
 
 ### 论文不足：

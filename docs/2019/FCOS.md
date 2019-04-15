@@ -17,13 +17,13 @@
 <p align="center">
   <img src="../../imgs/fcos_1.jpg" alt="fcos framework" width=700px />
   <br />
-  Fig1. FCOS Framework.
+  Fig 1. FCOS Framework.
 </p>
 
 <p align="center">
   <img src="../../imgs/fcos_2.jpg" alt="caculate ltrb" width=400px />
   <br />
-  Fig2. Caculate l, t, r, b of a pixel.
+  Fig 2. Caculate l, t, r, b of a pixel.
 </p>
 
 ### 论文创新点

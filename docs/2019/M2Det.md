@@ -5,19 +5,19 @@
 <p align="center">
   <img src="../../imgs/m2det_1.png" alt="m2det_framework" width="700px" />
   <br />
-  Fig.1 Framework.
+  Fig 1. Framework.
 </p>
 
 <p align="center">
   <img src="../../imgs/m2det_2.png" alt="m2det_sfam" width="700px" />
   <br />
-  Fig.2 SFAM.
+  Fig 2. SFAM.
 </p>
 
 <p align="center">
   <img src="../../imgs/m2det_3.png" alt="m2det_tum" width="700px" />
   <br />
-  Fig.3 TUM
+  Fig 3. TUM
 </p>
 
 ### 论文创新点
