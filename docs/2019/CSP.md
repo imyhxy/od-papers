@@ -3,7 +3,7 @@
 CNN目前在处理特征检测方面比传统方法能取得更好的效果，本文中作者认为目标的**中心点**是一种高度抽象特征，因此可以使用CNN直接进行检测。但本文主要实在行人检测任务上进行验证的。
 
 <p align="center">
-  <img src="../../imgs/csp.jpg" alt="CSP framework" width=750px />
+  <img src="../../imgs/2019/csp.jpg" alt="CSP framework" width=750px />
 </p>
 
 ### 论文创新点

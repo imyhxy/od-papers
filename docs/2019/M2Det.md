@@ -3,19 +3,19 @@
 论文认为目前处理多尺度目标检测的方法主要有两种，一种是使用图像金字塔，但是这种方法只可以在测试时使用并且计算量巨大；另一种是使用特征金字塔，但是目前的特征金字塔是基于分类模型搭建的，因此不能很好地适应目标检测任务，同时特征金字塔的每一层特征通常只与`backbone`网络的一层或两层特征有关，每层包含的信息不充分；因此本文提出一种**多层级的特征金字塔**模块，在`COCO`上能达到`11.8FPS`和`41.0AP`。
 
 <p align="center">
-  <img src="../../imgs/m2det_1.png" alt="m2det_framework" width="700px" />
+  <img src="../../imgs/2019/m2det_1.png" alt="m2det_framework" width="700px" />
   <br />
   Fig 1. Framework.
 </p>
 
 <p align="center">
-  <img src="../../imgs/m2det_2.png" alt="m2det_sfam" width="700px" />
+  <img src="../../imgs/2019/m2det_2.png" alt="m2det_sfam" width="700px" />
   <br />
   Fig 2. SFAM.
 </p>
 
 <p align="center">
-  <img src="../../imgs/m2det_3.png" alt="m2det_tum" width="700px" />
+  <img src="../../imgs/2019/m2det_3.png" alt="m2det_tum" width="700px" />
   <br />
   Fig 3. TUM
 </p>

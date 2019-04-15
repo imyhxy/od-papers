@@ -3,7 +3,7 @@
 论文认为二阶段网络中存在的受遮挡的`proposal`会影响模型的性能，因此提出`R-DAD`模型，即对`RPN`输出的`proposal`进行区域分解，然后再区域整合。
 
 <p align="center">
-  <img src="../../imgs/r_dad.jpg" alt="R-DAD framework" width="850px" />
+  <img src="../../imgs/2019/r_dad.jpg" alt="R-DAD framework" width="850px" />
 </p>
 
 ### 论文创新点

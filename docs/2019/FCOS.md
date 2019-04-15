@@ -15,13 +15,13 @@
 4. `anchor-free`模型可以拓展到其它密集预测的任务中去。
 
 <p align="center">
-  <img src="../../imgs/fcos_1.jpg" alt="fcos framework" width=700px />
+  <img src="../../imgs/2019/fcos_1.jpg" alt="fcos framework" width=700px />
   <br />
   Fig 1. FCOS Framework.
 </p>
 
 <p align="center">
-  <img src="../../imgs/fcos_2.jpg" alt="caculate ltrb" width=400px />
+  <img src="../../imgs/2019/fcos_2.jpg" alt="caculate ltrb" width=400px />
   <br />
   Fig 2. Caculate l, t, r, b of a pixel.
 </p>

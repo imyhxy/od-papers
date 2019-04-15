@@ -3,7 +3,7 @@
 `sliding-window`的方法在目标检测中使用得很多，并且效果也不错，而在`instance segmentation`中却缺少`sliding-window`这一方法，本文的主要动机就是为了填补这一空缺。
 
 <p align="center">
-  <img src="../../imgs/tensormask.jpg" alt="natural_vs_aligned" width=600px/>
+  <img src="../../imgs/2019/tensormask.jpg" alt="natural_vs_aligned" width=600px/>
   <br />
   Fig. Natural representation vs Aligned representation.
 </p>

@@ -7,7 +7,7 @@
 针对`IoU`不能很好表示`predicted boxed`和`ground truth`之间距离的情况，作者提出了一种新的误差计算方式：`GIoU`。
 
 <p align="center">
-  <img src="../../imgs/giou_1.jpg" alt="giou_caculate_function" height="50px" />
+  <img src="../../imgs/2019/giou_1.jpg" alt="giou_caculate_function" height="50px" />
 </p>
 
 `GIoU`的值域范围为`[-1, 1]`，这样各种情况下都能有梯度返回到网络

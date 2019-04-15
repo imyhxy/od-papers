@@ -4,11 +4,11 @@
 在本文中，作者通过提出新的**知识迁移**方法，使`target model`能更好地利用`source model`的知识。
 
 <p align="center">
-  <img src="../../imgs/lstd_1.jpg" alt="lstd_1" width="700px" />
+  <img src="../../imgs/2019/lstd_1.jpg" alt="lstd_1" width="700px" />
 </p>
 
 <p align="center">
-  <img src="../../imgs/lstd_2.jpg" alt="lstd_2" width="700px" />
+  <img src="../../imgs/2019/lstd_2.jpg" alt="lstd_2" width="700px" />
 </p>
 
 ### 论文创新点：

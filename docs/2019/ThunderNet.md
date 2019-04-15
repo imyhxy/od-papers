@@ -3,7 +3,7 @@
 论文太强大了！论文要论证的就是`two-stage`目标检测模型在速度方面也不会输给`one-stage`模型。论文把目标检测模型分成了`backbone`的特征提取部分和`detection`部分，然后分别就这两部分提出平衡**计算效率**和**效果**的方法。
 
 <p align="center">
-  <img src="../../imgs/thundernet_1.jpg" alt="ThunderNet Framework" width=750px />
+  <img src="../../imgs/2019/thundernet_1.jpg" alt="ThunderNet Framework" width=750px />
   <br />
   Fig 1. ThunderNet Framework.
 </p>
@@ -26,21 +26,21 @@
 4. 提出`Spatial Attentinon Module(SAM)`对`CEM`输出的特征进行关注；
 
 <p align="center">
-  <img src="../../imgs/thundernet_2.jpg" alt="Context Enchancement Module" width=500px />
+  <img src="../../imgs/2019/thundernet_2.jpg" alt="Context Enchancement Module" width=500px />
   <br />
   Fig 2. Context Enhancement Module.
   <br />
 </p>
 
 <p align="center">
-  <img src="../../imgs/thundernet_3.jpg" alt="Spatial Attention Module" width=500px />
+  <img src="../../imgs/2019/thundernet_3.jpg" alt="Spatial Attention Module" width=500px />
   <br />
   Fig 3. Spatial Attention Module.
   <br />
 </p>
 
 <p align="center">
-  <img src="../../imgs/thundernet_4.jpg" alt="Detection Results" width=700px />
+  <img src="../../imgs/2019/thundernet_4.jpg" alt="Detection Results" width=700px />
   <br />
   Fig 4. Detection Results.
 </p>
